@@ -20,6 +20,7 @@ import {render} from "react-dom";
 // ============= Chapter5-Routing ==============
 
 // import App from "./Chapter5-Routing/Episode4/App"
-import App from "./Chapter5-Routing/Episode5/App"
+// import App from "./Chapter5-Routing/Episode5/App"
+import App from "./Chapter5-Routing/Episode6/App"
 
 render(<App />, document.getElementById("root"));
