@@ -25,3 +25,4 @@ export default class Time extends Component {
     return <div>{this.state.time}</div>;
   }
 }
+
