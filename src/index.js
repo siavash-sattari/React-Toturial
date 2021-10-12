@@ -32,6 +32,7 @@ import {render} from "react-dom";
 // ============= Resource B | Chapter5-Routing ==================
 
 // import App from "./B/Chapter2 - Ajax And Https In React/Episode02/App";
-import App from "./B/Chapter2 - Ajax And Https In React/Episode03/App";
+// import App from "./B/Chapter2 - Ajax And Https In React/Episode03/App";
+import App from "./B/Chapter2 - Ajax And Https In React/Episode04/App";
 
 render(<App />, document.getElementById("root"));
