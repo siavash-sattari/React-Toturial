@@ -36,6 +36,7 @@ import {render} from "react-dom";
 // import App from "./B/Chapter2 - Ajax And Https In React/Episode04/App";
 // import App from "./B/Chapter2 - Ajax And Https In React/Episode05/App";
 // import App from "./B/Chapter2 - Ajax And Https In React/Episode06/App";
-import App from "./B/Chapter2 - Ajax And Https In React/Episode07/App";
+// import App from "./B/Chapter2 - Ajax And Https In React/Episode07/App";
+import App from "./B/Chapter2 - Ajax And Https In React/Episode08/App";
 
 render(<App />, document.getElementById("root"));
