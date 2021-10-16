@@ -44,7 +44,7 @@ import {render} from "react-dom";
 // import App from "./B/Chapter1 - React Basics/Episode28/App";
 // import App from "./B/Chapter1 - React Basics/Episode31/App";
 // import App from "./B/Chapter1 - React Basics/Episode34/App";
-import App from "./B/Chapter1 - React Basics/Episode35/App";
+import App from "./B/Chapter1 - React Basics/Episode36/App";
 
 // ============= Resource B | Chapter2 - Ajax And Https In React =================
 
