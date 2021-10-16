@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import Login from "./Login";
+import Cars from "./Cars";
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Login />
+        <Cars />
       </div>
     );
   }
