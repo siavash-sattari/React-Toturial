@@ -5,7 +5,7 @@ export default class Car extends Component {
     return (
       <>
         <p>
-          The model of car is {this.props.model} and it's color is {this.props.car}
+          The model of car is {this.props.model} and it's color is {this.props.color}
         </p>
         <span>{this.props.children}</span>
       </>
