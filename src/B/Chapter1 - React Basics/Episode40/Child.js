@@ -1,19 +1,14 @@
-import React, { Component } from 'react'
+import React, {Component} from "react";
 
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 
 export default class Child extends Component {
   render() {
-    const {number} = this.props
-    return (
-      <div>
-        {number + 2}
-      </div>
-    )
+    const {number} = this.props;
+    return <div>{number + 2}</div>;
   }
 }
 
-
-Child.propTypes={
-  number : PropTypes.number
-}
+Child.propTypes = {
+  number: PropTypes.number,
+};
