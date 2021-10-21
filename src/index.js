@@ -70,7 +70,8 @@ import {render} from "react-dom";
 // import App from "./B/Chapter4 - React Hooks/Episode02/App";
 // import App from "./B/Chapter4 - React Hooks/Episode03/App";
 // import App from "./B/Chapter4 - React Hooks/Episode04/App";
-import App from "./B/Chapter4 - React Hooks/Episode05/App";
+// import App from "./B/Chapter4 - React Hooks/Episode05/App";
+import App from "./B/Chapter4 - React Hooks/Episode06/App";
 
 
 
