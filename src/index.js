@@ -68,7 +68,9 @@ import {render} from "react-dom";
 // ============= Resource B | Chapter3 - SPA ==================
 
 // import App from "./B/Chapter3 - SPA/Episode02/App";
-import App from "./B/Chapter3 - SPA/Episode03/App";
+// import App from "./B/Chapter3 - SPA/Episode03/App";
+// import App from "./B/Chapter3 - SPA/Episode04/App";
+import App from "./B/Chapter3 - SPA/Episode05/App";
  
 // ============= Resource B | Chapter4 - React Hooks =================
 
