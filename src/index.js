@@ -65,6 +65,10 @@ import {render} from "react-dom";
 // import App from "./B/Chapter2 - Ajax And Https In React/Episode07/App";
 // import App from "./B/Chapter2 - Ajax And Https In React/Episode08/App";
 
+// ============= Resource B | Chapter3 - SPA ==================
+
+import App from "./B/Chapter3 - SPA/Episode02/App";
+ 
 // ============= Resource B | Chapter4 - React Hooks =================
 
 // import App from "./B/Chapter4 - React Hooks/Episode02/App";
@@ -83,6 +87,6 @@ import {render} from "react-dom";
 // import App from "./B/Chapter4 - React Hooks/Episode15/App";
 // import App from "./B/Chapter4 - React Hooks/Episode17/App";
 // import App from "./B/Chapter4 - React Hooks/Episode18/App";
-import App from "./B/Chapter4 - React Hooks/Episode19/App";
+// import App from "./B/Chapter4 - React Hooks/Episode19/App";
 
 render(<App />, document.getElementById("root"));
