@@ -98,6 +98,7 @@ import {render} from "react-dom";
 
 // ============= Resource Z | Chapter1 - Styled Components =================
 
-import App from "./Z/Chapter1 - Styled Components/Episode01/App";
+// import App from "./Z/Chapter1 - Styled Components/Episode01/App";
+import App from "./Z/Chapter1 - Styled Components/Episode02/App";
 
 render(<App />, document.getElementById("root"));
