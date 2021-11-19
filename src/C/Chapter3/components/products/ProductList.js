@@ -11,12 +11,17 @@ const initialItems = [
 
 function ProductList() {
   const [items, setItems] = useState(initialItems);
+
+  const removeItem = (id) => {
+    setItems([...items.filter((q) => q.id !== id)]);
+  };
+
   return (
     <div className="container">
       <h2>Product List with Function Component</h2>
       <div className="row">
         {items.map((item) => (
-          <ProductInfo key={item.id} info={item} />
+          <ProductInfo key={item.id} info={item} remove={removeItem} />
         ))}
       </div>
     </div>
