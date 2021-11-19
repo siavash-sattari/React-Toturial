@@ -13,7 +13,9 @@ function ProductList() {
   const [items, setItems] = useState(initialItems);
 
   const removeItem = (id) => {
-    setItems([...items.filter((q) => q.id !== id)]);
+    if (window.confirm("are yot sure remove item?")) {
+      setItems([...items.filter((q) => q.id !== id)]);
+    }
   };
 
   return (
