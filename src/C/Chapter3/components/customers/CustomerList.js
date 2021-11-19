@@ -10,6 +10,22 @@ const initialCustomers = [
 class CustomerList extends Component {
   state = {customers: initialCustomers};
 
+  // Component Lifecycle ================================
+
+  componentDidMount() {
+    console.log("CustomerList componentDidMount");
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    console.log("CustomerList componentDidUpdate");
+  }
+
+  componentWillUnmount() {
+    console.log("CustomerList componentWillUnmount");
+  }
+
+  // ====================================================
+
   removeCustomer = (id) => {
     this.setState({customers: this.state.customers.filter((q) => q.id != id)});
   };
