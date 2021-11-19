@@ -96,6 +96,10 @@ import {render} from "react-dom";
 // import App from "./B/Chapter4 - React Hooks/Episode18/App";
 // import App from "./B/Chapter4 - React Hooks/Episode19/App";
 
+// ============= Resource C | Chapter4 - React Hooks =================
+
+import App from "./C/Chapter3/App";
+
 // ============= Resource Z | Chapter1 - Styled Components =================
 
 // import App from "./Z/Chapter1 - Styled Components/Episode01/App";
@@ -104,6 +108,6 @@ import {render} from "react-dom";
 // import App from "./Z/Chapter1 - Styled Components/Episode04/App";
 // import App from "./Z/Chapter1 - Styled Components/Episode05/App";
 // import App from "./Z/Chapter1 - Styled Components/Episode06/App";
-import App from "./Z/Chapter1 - Styled Components/Episode07/App";
+// import App from "./Z/Chapter1 - Styled Components/Episode07/App";
 
 render(<App />, document.getElementById("root"));
