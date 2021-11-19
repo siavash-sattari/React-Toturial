@@ -9,7 +9,7 @@ const initialItems = [
   {id: 3, title: "Keyboard", price: 80, editMode: false},
 ];
 
-const template = {id:null , title:"" , price:null , editMode:false}
+const template = {id: null, title: "", price: null, editMode: false};
 
 function ProductList() {
   const [items, setItems] = useState(initialItems);
@@ -58,8 +58,10 @@ function ProductList() {
   return (
     <div className="container">
       <h2>Product List with Function Component</h2>
-      <div className="row">{items.map((item) => (item.editMode ? <ProductEdit key={item.id} info={item} save={editItem} cancle={setEditMode} /> : <ProductInfo key={item.id} info={item} remove={removeItem} edit={setEditMode} />))}</div>
-      <ProductEdit info={template} save={addItem} cancle={setEditMode}/>
+      <div className="row">
+        {items.map((item) => (item.editMode ? <ProductEdit key={item.id} info={item} save={editItem} cancle={setEditMode} /> : <ProductInfo key={item.id} info={item} remove={removeItem} edit={setEditMode} />))}
+        <ProductEdit info={template} save={addItem} cancle={setEditMode} />
+      </div>
     </div>
   );
 }

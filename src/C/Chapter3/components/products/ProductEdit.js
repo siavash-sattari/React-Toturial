@@ -23,16 +23,16 @@ function ProductEdit({info, cancle, save}) {
       <div className="card bg-info text-white">
         <div className="card-header">{info.editMode ? "Edit Item" : "Add New Item"}</div>
         <div className="card-body">
-          <div>
+          <div className="my-2">
             Title : <input name="title" value={title} onChange={(e) => setTitle(e.target.value)} />
           </div>
-          <div>
+          <div className="my-2">
             Price : <input name="price" value={price} onChange={(e) => setPrice(parseInt(e.target.value))} />
           </div>
-          <button className="btn btn-success btn-sm" onClick={saveItem}>
+          <button className="btn btn-success btn-sm mx-2" onClick={saveItem}>
             Save
           </button>
-          <button className="btn btn-secondary btn-sm" onClick={() => cancle(info.id, false)}>
+          <button className="btn btn-secondary btn-sm mx-2" onClick={() => cancle(info.id, false)}>
             Cancle
           </button>
         </div>
