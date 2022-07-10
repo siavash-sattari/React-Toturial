@@ -1,8 +1,13 @@
 import React from 'react';
-import './App.css';
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <h1>مدیریت کننده ی مخاطبین</h1>
+      <button className='btn btn-danger'>کلیک کن</button>
+      <span className='fa fa-user' />
+    </div>
+  );
 }
 
 export default App;
