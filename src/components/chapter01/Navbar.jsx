@@ -4,7 +4,7 @@ import { BACKGROUND, PURPLE } from '../../helpers/colors';
 
 const Navbar = () => {
   return (
-    <nav className='navbar navbar-dark navbar-expand-sm shadow-lg' style={{ backgroundColor: BACKGROUND }}>
+    <nav className='navbar navbar-dark navbar-expand-sm shadow-lg py-3' style={{ backgroundColor: BACKGROUND }}>
       <div className='container'>
         <div className='row w-100'>
           <div className='col'>

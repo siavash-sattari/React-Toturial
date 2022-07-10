@@ -1,7 +1,8 @@
 import Contact from './Contact';
-import { PINK } from '../../../helpers/colors';
+import { PINK, CURRENTLINE, ORANGE } from '../../../helpers/colors';
+// import NotFound from "../../../assets/no-found.gif";
 
-const Contacts = () => {
+const Contacts = ({ contacts }) => {
   return (
     <>
       <section className='container'>
@@ -20,7 +21,16 @@ const Contacts = () => {
       </section>
       <section className='container'>
         <div className='row'>
-          <Contact />
+          {contacts.length > 0 ? (
+            contacts.map(c => <Contact key={c.id} contact={c} />)
+          ) : (
+            <div className='col-md-10 text-center py-5 mx-auto my-5' style={{ backgroundColor: CURRENTLINE }}>
+              <p className='h3' style={{ color: ORANGE }}>
+                مخاطب یافت نشد ...
+              </p>
+              <img src={require('../../../assets/no-found.gif')} alt='پیدا نشد' className='w-25' />
+            </div>
+          )}
         </div>
       </section>
     </>
