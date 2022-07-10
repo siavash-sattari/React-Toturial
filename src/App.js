@@ -1,12 +1,11 @@
 import React from 'react';
+import Navbar from './components/chapter01/Navbar';
 
 function App() {
   return (
-    <div>
-      <h1>مدیریت کننده ی مخاطبین</h1>
-      <button className='btn btn-danger'>کلیک کن</button>
-      <span className='fa fa-user' />
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
