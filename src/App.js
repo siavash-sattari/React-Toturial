@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-
-import Navbar from './components/chapter01/Navbar';
-import Contacts from './components/chapter01/contact/Contacts';
+import { Navbar, Contacts } from './components/chapter01';
 
 function App() {
   const [loading, setLoading] = useState(false);
